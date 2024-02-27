@@ -15,7 +15,7 @@ const Materiles = () => {
           <img src={image} alt="" />
         </div>
         {/* tag */}
-        <p className=" text-center pt-2 font-bold font-merriweather text-[13px]">
+        <p className=" text-center pt-2 font-bold font-merriweather text-[11px] lg:text-[13px]">
           Valves - Pumps - Pipes - IoT Drives & Controllers - Wires & Cables -
           Solar Systems - Motors
         </p>
@@ -25,7 +25,7 @@ const Materiles = () => {
           C.R.I. FLUID SYSTEMS PRODUCTS CATER TO DIVERSE SEGMENTS
         </h1>
 
-        <div className="  text-center pt-2 font-bold font-merriweather text-[13px]">
+        <div className="  text-center pt-2 font-bold font-merriweather text-[11px] lg:text-[13px]">
           CHEMICALS & PROCESS <CustomTag /> POWER <CustomTag /> WATER & WASTE
           WATER <CustomTag /> OILS & GAS PHARMA <CustomTag /> SUGARS &
           DISTILLERIES <CustomTag /> PAPER & PULP <CustomTag /> MARINE & DEFENCE

@@ -5,19 +5,19 @@ import Award2 from "../asserts/2.png";
 const Award = () => {
   return (
     <>
-      <section className="pt-2">
+      <section className="pt-2 px-3 lg:px-0">
         <main className="flex flex-col lg:flex-row items-center">
           {/* <img src={Award1} alt="" /> */}
-          <div className="w-[33%] p-4 ">
+          <div className="w-full lg:w-[33%] p-4 ">
             <img src={Award1} alt="" />
           </div>
-          <div className="w-[67%]">
+          <div className="w-full lg:w-[67%]">
             <h1 className=" font-merriweather text-[14px] font-black heading ">
               {" "}
               C.R.I. PUMPS WINS THE NATIONAL ENERGY CONSERVATION AWARD 2018 for
               the 4th time.
             </h1>
-            <ul className="mt-3 ml-10 list-disc font-semibold font-merriweather text-[13px] text-gray-900 leading-tight">
+            <ul className="mt-3 ml-3 lg:ml-10 list-disc font-semibold font-merriweather text-[11px] lg:text-[13px] text-gray-900 leading-tight">
               <li>
                 {" "}
                 C.R.I.'s energy efficient products are well recognized by
