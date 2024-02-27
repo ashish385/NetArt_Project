@@ -6,7 +6,7 @@ const Award = () => {
   return (
     <>
       <section className="pt-2">
-        <main className="flex flex-col lg:flex-row">
+        <main className="flex flex-col lg:flex-row items-center">
           {/* <img src={Award1} alt="" /> */}
           <div className="w-[33%] p-4 ">
             <img src={Award1} alt="" />

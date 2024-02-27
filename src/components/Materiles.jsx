@@ -5,7 +5,7 @@ import CustomTag from "./CustomTag";
 const Materiles = () => {
   return (
     <>
-      <section className="w-[97c%] mx-auto mt-8 pt-4">
+      <section className="w-[97c%] mx-auto mt-8 pt-4 px-3">
         <h1 className=" font-bold font-merriweather text-[13px]">
           INSTALLED OVER 10 LAKHS STAR RATED PUMPSETS ACROSS THE COUNTRY
           RESULTING IN A CUMULATIVE SAVING OF MORE THAN 9,000 MILLION UNITS OF

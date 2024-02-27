@@ -6,10 +6,10 @@ import { CiGlobe } from "react-icons/ci";
 const Footer = () => {
   return (
     <>
-      <footer className="mt-5 w-[99%] mx-auto bg-red-600 py-5 h-[110px]">
-        <div className="grid grid-cols-1 lg:grid-cols-3">
+      <footer className="mt-5 w-[99%] mx-auto bg-red-600 py-10 ">
+        <div className="flex flex-col lg:flex-row ">
           {/* phone */}
-          <div className="flex gap-1 justify-center items-center w-full h-full">
+          <div className="flex gap-1 justify-center items-center w-full h-full ">
             <div className="  bg-white p-1 rounded-full text-xl text-red-500 font-bold">
               <MdCall className="" />
             </div>
@@ -18,7 +18,7 @@ const Footer = () => {
             </p>
           </div>
           {/* Facebook */}
-          <div className="flex gap-1 justify-center items-center w-full h-full">
+          <div className="flex gap-1 justify-center items-center w-full h-full mt-5 lg:mt-0">
             <div className="   rounded-full  text-white text-4xl font-bold">
               <BiLogoFacebookCircle />
             </div>
@@ -27,7 +27,7 @@ const Footer = () => {
             </p>
           </div>
           {/* Internet */}
-          <div className="flex gap-1 justify-center items-center w-full h-full">
+          <div className="flex gap-1 justify-center items-center w-full h-full mt-5 lg:mt-0">
             <div className="    rounded-full text-3xl ">
               <CiGlobe className=" bg-white rounded-full text-red-500" />
             </div>
